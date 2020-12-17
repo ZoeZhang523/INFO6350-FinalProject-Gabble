@@ -1,0 +1,6 @@
+framework module Pods_Gabble {
+  umbrella header "Pods-Gabble-umbrella.h"
+
+  export *
+  module * { export * }
+}

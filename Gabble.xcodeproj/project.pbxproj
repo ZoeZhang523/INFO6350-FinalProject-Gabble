@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8151AC3BF16EAB6EFDFCC770 /* Pods_GabbleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C0C9880DDD2F360246D13F /* Pods_GabbleTests.framework */; };
+		852C7ED0161D2EDB66AD3565 /* Pods_Gabble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794E28139A3844EB1E94BE98 /* Pods_Gabble.framework */; };
+		C821AAC3256893DF00A67AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AAC2256893DF00A67AF1 /* AppDelegate.swift */; };
+		C821AAC5256893DF00A67AF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AAC4256893DF00A67AF1 /* SceneDelegate.swift */; };
+		C821AAC7256893DF00A67AF1 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AAC6256893DF00A67AF1 /* ConversationViewController.swift */; };
+		C821AACA256893DF00A67AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C821AAC8256893DF00A67AF1 /* Main.storyboard */; };
+		C821AACC256893E200A67AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C821AACB256893E200A67AF1 /* Assets.xcassets */; };
+		C821AACF256893E200A67AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C821AACD256893E200A67AF1 /* LaunchScreen.storyboard */; };
+		C821AADA256893E200A67AF1 /* GabbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AAD9256893E200A67AF1 /* GabbleTests.swift */; };
+		C821AAE5256893E200A67AF1 /* GabbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AAE4256893E200A67AF1 /* GabbleUITests.swift */; };
+		C821AB052568982B00A67AF1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AB042568982B00A67AF1 /* LoginViewController.swift */; };
+		C821AB0A2568984000A67AF1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AB092568984000A67AF1 /* RegisterViewController.swift */; };
+		C821AB0F2568987800A67AF1 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AB0E2568987800A67AF1 /* PhotoViewerViewController.swift */; };
+		C821AB152568989A00A67AF1 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AB142568989A00A67AF1 /* NewConversationViewController.swift */; };
+		C821AB1D256898AB00A67AF1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821AB1C256898AB00A67AF1 /* ProfileViewController.swift */; };
+		C821AB55256C973900A67AF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C821AB54256C973900A67AF1 /* GoogleService-Info.plist */; };
+		C8381E86256DE84300ED28A7 /* StringExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8381E85256DE84300ED28A7 /* StringExtentions.swift */; };
+		C8381E8E256DE86C00ED28A7 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8381E8D256DE86C00ED28A7 /* KeychainService.swift */; };
+		C8381E93256DF7BE00ED28A7 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8381E92256DF7BE00ED28A7 /* DatabaseManager.swift */; };
+		C84C95212576DE4500DEC0D6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C95202576DE4500DEC0D6 /* ChatViewController.swift */; };
+		C84C9542257732DF00DEC0D6 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C9541257732DF00DEC0D6 /* StorageManager.swift */; };
+		C8BC0AD52582C0C10028028B /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BC0AD42582C0C10028028B /* ConversationTableViewCell.swift */; };
+		C8BC0ADA2583258C0028028B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BC0AD92583258B0028028B /* Extensions.swift */; };
+		C8C227F82575B939008D9671 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C227F72575B939008D9671 /* ResetPasswordViewController.swift */; };
+		D4F86880B94EA5AA3E01D4B8 /* Pods_Gabble_GabbleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75DCA2A1D2D50FC7D8D04AF /* Pods_Gabble_GabbleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C821AAD6256893E200A67AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C821AAB7256893DF00A67AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C821AABE256893DF00A67AF1;
+			remoteInfo = Gabble;
+		};
+		C821AAE1256893E200A67AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C821AAB7256893DF00A67AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C821AABE256893DF00A67AF1;
+			remoteInfo = Gabble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BDA6635C6F66DBC793175CD /* Pods-Gabble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gabble.debug.xcconfig"; path = "Target Support Files/Pods-Gabble/Pods-Gabble.debug.xcconfig"; sourceTree = "<group>"; };
+		15C0C9880DDD2F360246D13F /* Pods_GabbleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GabbleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD882A985C52E0A96B73CD /* Pods-Gabble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gabble.release.xcconfig"; path = "Target Support Files/Pods-Gabble/Pods-Gabble.release.xcconfig"; sourceTree = "<group>"; };
+		5A67F130FCF234F2403A95A5 /* Pods-Gabble-GabbleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gabble-GabbleUITests.release.xcconfig"; path = "Target Support Files/Pods-Gabble-GabbleUITests/Pods-Gabble-GabbleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		688BB86386BBE628AB46ACF7 /* Pods-Gabble-GabbleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gabble-GabbleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gabble-GabbleUITests/Pods-Gabble-GabbleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		794E28139A3844EB1E94BE98 /* Pods_Gabble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gabble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75DCA2A1D2D50FC7D8D04AF /* Pods_Gabble_GabbleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gabble_GabbleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C821AABF256893DF00A67AF1 /* Gabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C821AAC2256893DF00A67AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C821AAC4256893DF00A67AF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C821AAC6256893DF00A67AF1 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		C821AAC9256893DF00A67AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C821AACB256893E200A67AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C821AACE256893E200A67AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C821AAD0256893E200A67AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C821AAD5256893E200A67AF1 /* GabbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C821AAD9256893E200A67AF1 /* GabbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GabbleTests.swift; sourceTree = "<group>"; };
+		C821AADB256893E200A67AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C821AAE0256893E200A67AF1 /* GabbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GabbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C821AAE4256893E200A67AF1 /* GabbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GabbleUITests.swift; sourceTree = "<group>"; };
+		C821AAE6256893E200A67AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C821AB042568982B00A67AF1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C821AB092568984000A67AF1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C821AB0E2568987800A67AF1 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		C821AB142568989A00A67AF1 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		C821AB1C256898AB00A67AF1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C821AB54256C973900A67AF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8381E85256DE84300ED28A7 /* StringExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtentions.swift; sourceTree = "<group>"; };
+		C8381E8D256DE86C00ED28A7 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		C8381E92256DF7BE00ED28A7 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		C84C95202576DE4500DEC0D6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C84C9541257732DF00DEC0D6 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		C8BC0AD42582C0C10028028B /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		C8BC0AD92583258B0028028B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C8C227F72575B939008D9671 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		D851BA0B02ABBEEC8E2EC55B /* Pods-GabbleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GabbleTests.release.xcconfig"; path = "Target Support Files/Pods-GabbleTests/Pods-GabbleTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC2C1974FCD266864907127A /* Pods-GabbleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GabbleTests.debug.xcconfig"; path = "Target Support Files/Pods-GabbleTests/Pods-GabbleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C821AABC256893DF00A67AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852C7ED0161D2EDB66AD3565 /* Pods_Gabble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C821AAD2256893E200A67AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8151AC3BF16EAB6EFDFCC770 /* Pods_GabbleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C821AADD256893E200A67AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F86880B94EA5AA3E01D4B8 /* Pods_Gabble_GabbleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06214573CE43744BC38AEDF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				794E28139A3844EB1E94BE98 /* Pods_Gabble.framework */,
+				A75DCA2A1D2D50FC7D8D04AF /* Pods_Gabble_GabbleUITests.framework */,
+				15C0C9880DDD2F360246D13F /* Pods_GabbleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C800DE40A9793E8603BCDA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BDA6635C6F66DBC793175CD /* Pods-Gabble.debug.xcconfig */,
+				45FD882A985C52E0A96B73CD /* Pods-Gabble.release.xcconfig */,
+				688BB86386BBE628AB46ACF7 /* Pods-Gabble-GabbleUITests.debug.xcconfig */,
+				5A67F130FCF234F2403A95A5 /* Pods-Gabble-GabbleUITests.release.xcconfig */,
+				FC2C1974FCD266864907127A /* Pods-GabbleTests.debug.xcconfig */,
+				D851BA0B02ABBEEC8E2EC55B /* Pods-GabbleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C821AAB6256893DF00A67AF1 = {
+			isa = PBXGroup;
+			children = (
+				C821AAC1256893DF00A67AF1 /* Gabble */,
+				C821AAD8256893E200A67AF1 /* GabbleTests */,
+				C821AAE3256893E200A67AF1 /* GabbleUITests */,
+				C821AAC0256893DF00A67AF1 /* Products */,
+				5C800DE40A9793E8603BCDA1 /* Pods */,
+				06214573CE43744BC38AEDF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C821AAC0256893DF00A67AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C821AABF256893DF00A67AF1 /* Gabble.app */,
+				C821AAD5256893E200A67AF1 /* GabbleTests.xctest */,
+				C821AAE0256893E200A67AF1 /* GabbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C821AAC1256893DF00A67AF1 /* Gabble */ = {
+			isa = PBXGroup;
+			children = (
+				C821AB54256C973900A67AF1 /* GoogleService-Info.plist */,
+				C821AAFC2568962300A67AF1 /* Resources */,
+				C821AAFB2568961C00A67AF1 /* ViewModels */,
+				C821AAFA2568961600A67AF1 /* Models */,
+				C821AAF92568961000A67AF1 /* Views */,
+				C821AAF82568960800A67AF1 /* Controllers */,
+				C821AAD0256893E200A67AF1 /* Info.plist */,
+			);
+			path = Gabble;
+			sourceTree = "<group>";
+		};
+		C821AAD8256893E200A67AF1 /* GabbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C821AAD9256893E200A67AF1 /* GabbleTests.swift */,
+				C821AADB256893E200A67AF1 /* Info.plist */,
+			);
+			path = GabbleTests;
+			sourceTree = "<group>";
+		};
+		C821AAE3256893E200A67AF1 /* GabbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C821AAE4256893E200A67AF1 /* GabbleUITests.swift */,
+				C821AAE6256893E200A67AF1 /* Info.plist */,
+			);
+			path = GabbleUITests;
+			sourceTree = "<group>";
+		};
+		C821AAF82568960800A67AF1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C821AB212568C77500A67AF1 /* Login */,
+				C821AAC6256893DF00A67AF1 /* ConversationViewController.swift */,
+				C821AB142568989A00A67AF1 /* NewConversationViewController.swift */,
+				C821AB0E2568987800A67AF1 /* PhotoViewerViewController.swift */,
+				C821AB1C256898AB00A67AF1 /* ProfileViewController.swift */,
+				C84C95202576DE4500DEC0D6 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C821AAF92568961000A67AF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C821AAFD2568965600A67AF1 /* Storyboards */,
+				C821AACB256893E200A67AF1 /* Assets.xcassets */,
+				C8BC0AD42582C0C10028028B /* ConversationTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C821AAFA2568961600A67AF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C821AAFB2568961C00A67AF1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C821AAFC2568962300A67AF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C821AAC4256893DF00A67AF1 /* SceneDelegate.swift */,
+				C821AAC2256893DF00A67AF1 /* AppDelegate.swift */,
+				C8381E85256DE84300ED28A7 /* StringExtentions.swift */,
+				C8381E8D256DE86C00ED28A7 /* KeychainService.swift */,
+				C8381E92256DF7BE00ED28A7 /* DatabaseManager.swift */,
+				C84C9541257732DF00DEC0D6 /* StorageManager.swift */,
+				C8BC0AD92583258B0028028B /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C821AAFD2568965600A67AF1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C821AAC8256893DF00A67AF1 /* Main.storyboard */,
+				C821AACD256893E200A67AF1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C821AB212568C77500A67AF1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C821AB042568982B00A67AF1 /* LoginViewController.swift */,
+				C821AB092568984000A67AF1 /* RegisterViewController.swift */,
+				C8C227F72575B939008D9671 /* ResetPasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C821AABE256893DF00A67AF1 /* Gabble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C821AAE9256893E200A67AF1 /* Build configuration list for PBXNativeTarget "Gabble" */;
+			buildPhases = (
+				9362AAE8950F83F80BC41DFE /* [CP] Check Pods Manifest.lock */,
+				C821AABB256893DF00A67AF1 /* Sources */,
+				C821AABC256893DF00A67AF1 /* Frameworks */,
+				C821AABD256893DF00A67AF1 /* Resources */,
+				1C75481829DB612EB4E439A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gabble;
+			productName = Gabble;
+			productReference = C821AABF256893DF00A67AF1 /* Gabble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C821AAD4256893E200A67AF1 /* GabbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C821AAEC256893E200A67AF1 /* Build configuration list for PBXNativeTarget "GabbleTests" */;
+			buildPhases = (
+				46580D36A18BB49FB07D7C9B /* [CP] Check Pods Manifest.lock */,
+				C821AAD1256893E200A67AF1 /* Sources */,
+				C821AAD2256893E200A67AF1 /* Frameworks */,
+				C821AAD3256893E200A67AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C821AAD7256893E200A67AF1 /* PBXTargetDependency */,
+			);
+			name = GabbleTests;
+			productName = GabbleTests;
+			productReference = C821AAD5256893E200A67AF1 /* GabbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C821AADF256893E200A67AF1 /* GabbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C821AAEF256893E200A67AF1 /* Build configuration list for PBXNativeTarget "GabbleUITests" */;
+			buildPhases = (
+				B0EBBC08A65B736074D9571B /* [CP] Check Pods Manifest.lock */,
+				C821AADC256893E200A67AF1 /* Sources */,
+				C821AADD256893E200A67AF1 /* Frameworks */,
+				C821AADE256893E200A67AF1 /* Resources */,
+				429ED552052EA74868E298F1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C821AAE2256893E200A67AF1 /* PBXTargetDependency */,
+			);
+			name = GabbleUITests;
+			productName = GabbleUITests;
+			productReference = C821AAE0256893E200A67AF1 /* GabbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C821AAB7256893DF00A67AF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C821AABE256893DF00A67AF1 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C821AAD4256893E200A67AF1 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C821AABE256893DF00A67AF1;
+					};
+					C821AADF256893E200A67AF1 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = C821AABE256893DF00A67AF1;
+					};
+				};
+			};
+			buildConfigurationList = C821AABA256893DF00A67AF1 /* Build configuration list for PBXProject "Gabble" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C821AAB6256893DF00A67AF1;
+			productRefGroup = C821AAC0256893DF00A67AF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C821AABE256893DF00A67AF1 /* Gabble */,
+				C821AAD4256893E200A67AF1 /* GabbleTests */,
+				C821AADF256893E200A67AF1 /* GabbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C821AABD256893DF00A67AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C821AACF256893E200A67AF1 /* LaunchScreen.storyboard in Resources */,
+				C821AB55256C973900A67AF1 /* GoogleService-Info.plist in Resources */,
+				C821AACC256893E200A67AF1 /* Assets.xcassets in Resources */,
+				C821AACA256893DF00A67AF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C821AAD3256893E200A67AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C821AADE256893E200A67AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C75481829DB612EB4E439A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gabble/Pods-Gabble-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gabble/Pods-Gabble-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gabble/Pods-Gabble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		429ED552052EA74868E298F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gabble-GabbleUITests/Pods-Gabble-GabbleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gabble-GabbleUITests/Pods-Gabble-GabbleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gabble-GabbleUITests/Pods-Gabble-GabbleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46580D36A18BB49FB07D7C9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GabbleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9362AAE8950F83F80BC41DFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gabble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0EBBC08A65B736074D9571B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gabble-GabbleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C821AABB256893DF00A67AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C821AB052568982B00A67AF1 /* LoginViewController.swift in Sources */,
+				C8381E93256DF7BE00ED28A7 /* DatabaseManager.swift in Sources */,
+				C8381E86256DE84300ED28A7 /* StringExtentions.swift in Sources */,
+				C84C9542257732DF00DEC0D6 /* StorageManager.swift in Sources */,
+				C8C227F82575B939008D9671 /* ResetPasswordViewController.swift in Sources */,
+				C821AB152568989A00A67AF1 /* NewConversationViewController.swift in Sources */,
+				C8381E8E256DE86C00ED28A7 /* KeychainService.swift in Sources */,
+				C821AB0A2568984000A67AF1 /* RegisterViewController.swift in Sources */,
+				C821AAC7256893DF00A67AF1 /* ConversationViewController.swift in Sources */,
+				C821AAC3256893DF00A67AF1 /* AppDelegate.swift in Sources */,
+				C84C95212576DE4500DEC0D6 /* ChatViewController.swift in Sources */,
+				C8BC0ADA2583258C0028028B /* Extensions.swift in Sources */,
+				C821AAC5256893DF00A67AF1 /* SceneDelegate.swift in Sources */,
+				C821AB1D256898AB00A67AF1 /* ProfileViewController.swift in Sources */,
+				C821AB0F2568987800A67AF1 /* PhotoViewerViewController.swift in Sources */,
+				C8BC0AD52582C0C10028028B /* ConversationTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C821AAD1256893E200A67AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C821AADA256893E200A67AF1 /* GabbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C821AADC256893E200A67AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C821AAE5256893E200A67AF1 /* GabbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C821AAD7256893E200A67AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C821AABE256893DF00A67AF1 /* Gabble */;
+			targetProxy = C821AAD6256893E200A67AF1 /* PBXContainerItemProxy */;
+		};
+		C821AAE2256893E200A67AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C821AABE256893DF00A67AF1 /* Gabble */;
+			targetProxy = C821AAE1256893E200A67AF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C821AAC8256893DF00A67AF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C821AAC9256893DF00A67AF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C821AACD256893E200A67AF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C821AACE256893E200A67AF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C821AAE7256893E200A67AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C821AAE8256893E200A67AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C821AAEA256893E200A67AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BDA6635C6F66DBC793175CD /* Pods-Gabble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK465Q9U3;
+				INFOPLIST_FILE = Gabble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zoe.Gabble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C821AAEB256893E200A67AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FD882A985C52E0A96B73CD /* Pods-Gabble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK465Q9U3;
+				INFOPLIST_FILE = Gabble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zoe.Gabble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C821AAED256893E200A67AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2C1974FCD266864907127A /* Pods-GabbleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK465Q9U3;
+				INFOPLIST_FILE = GabbleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zoe.GabbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gabble.app/Gabble";
+			};
+			name = Debug;
+		};
+		C821AAEE256893E200A67AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D851BA0B02ABBEEC8E2EC55B /* Pods-GabbleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK465Q9U3;
+				INFOPLIST_FILE = GabbleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zoe.GabbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gabble.app/Gabble";
+			};
+			name = Release;
+		};
+		C821AAF0256893E200A67AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688BB86386BBE628AB46ACF7 /* Pods-Gabble-GabbleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK465Q9U3;
+				INFOPLIST_FILE = GabbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zoe.GabbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gabble;
+			};
+			name = Debug;
+		};
+		C821AAF1256893E200A67AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A67F130FCF234F2403A95A5 /* Pods-Gabble-GabbleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK465Q9U3;
+				INFOPLIST_FILE = GabbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zoe.GabbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gabble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C821AABA256893DF00A67AF1 /* Build configuration list for PBXProject "Gabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C821AAE7256893E200A67AF1 /* Debug */,
+				C821AAE8256893E200A67AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C821AAE9256893E200A67AF1 /* Build configuration list for PBXNativeTarget "Gabble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C821AAEA256893E200A67AF1 /* Debug */,
+				C821AAEB256893E200A67AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C821AAEC256893E200A67AF1 /* Build configuration list for PBXNativeTarget "GabbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C821AAED256893E200A67AF1 /* Debug */,
+				C821AAEE256893E200A67AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C821AAEF256893E200A67AF1 /* Build configuration list for PBXNativeTarget "GabbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C821AAF0256893E200A67AF1 /* Debug */,
+				C821AAF1256893E200A67AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C821AAB7256893DF00A67AF1 /* Project object */;
+}
